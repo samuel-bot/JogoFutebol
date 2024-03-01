@@ -31,6 +31,8 @@ public class Partida {
 			int ptsV = this.visitante.getPontos() + 1;
 			this.casa.setPontos(ptsC);
 			this.visitante.setPontos(ptsV);
+			this.casa.addEmpate();
+			this.visitante.addEmpate();
 		}
 	}
 	
